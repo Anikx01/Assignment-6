@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Peddy - Pet Adoption Platform</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/23363442c6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="navbar bg-base-100 w-11/12 mx-auto">
+        <div class="navbar-start flex gap-2">
+          <!-- <a class="btn btn-ghost text-xl">daisyUI</a> -->
+          <img src="./images/logo.webp" alt="" />
+          <h3>Paddy</h3>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Home</a></li>
+            <li>
+              <a href="">Shop</a>
+            </li>
+            <li><a>Contact</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a class="btn bg-white border rounded-full"
+            ><i class="fa-solid fa-user"></i
+          ></a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- Banner Section -->
+      <section id="banner-container" class="w-11/12 mx-auto">
+        <div class="hero">
+          <div class="hero-content flex flex-col text-center">
+            <div class="max-w-lg">
+              <h3 class="font-semibold text-gray-600">
+                Bringing Families Together ❤️‍🔥
+              </h3>
+              <h1 class="text-5xl font-bold">
+                Your Path to Adoption Starts Here
+              </h1>
+              <p class="py-6">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+                The point of using Lorem Ipsum is that it has a. View More<
+              </p>
+              <button class="btn btn-primary">View More</button>
+            </div>
+            <div>
+              <img src="./images/pet.webp" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Bestfriend Sectoion -->
+      <section class="w-11/12 mx-auto">
+        <div class="hero">
+          <div class="hero-content text-center">
+            <div class="max-w-lg">
+              <h1 class="text-2xl text-black font-bold">
+                Adopt Your Best Friend
+              </h1>
+              <p class="py-6 text-sm">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+                The point of using Lorem Ipsum is that it has a.
+              </p>
+              <button class="btn btn-primary">Get Started</button>
+            </div>
+          </div>
+        </div>
+        <div
+          id="button-container"
+          class="w-11/12 mx-auto grid lg:grid-cols-4 gap-6"
+        ></div>
+      </section>
+      <!-- All Pet Section -->
+      <section id="a">
+        <div id="ll-pet-container"></div>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="./scripts/adopt.js"></script>
+  </body>
+</html>
