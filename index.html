@@ -9,6 +9,10 @@
       rel="stylesheet"
       type="text/css"
     />
+    <script
+      src="https://kit.fontawesome.com/23363442c6.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script
       src="https://kit.fontawesome.com/23363442c6.js"
@@ -56,7 +60,9 @@
                 by the readable content of a page when looking at its layout.
                 The point of using Lorem Ipsum is that it has a. View More<
               </p>
-              <button class="btn btn-primary">View More</button>
+              <button class="btn bg-emerald-900 text-white">
+                <a href="#all-pet-container">View More</a>
+              </button>
             </div>
             <div>
               <img src="./images/pet.webp" alt="" />
@@ -78,18 +84,51 @@
                 by the readable content of a page when looking at its layout.
                 The point of using Lorem Ipsum is that it has a.
               </p>
-              <button class="btn btn-primary">Get Started</button>
+              <button class="btn bg-emerald-900 text-white">Get Started</button>
             </div>
           </div>
         </div>
         <div
           id="button-container"
-          class="w-11/12 mx-auto grid lg:grid-cols-4 gap-6"
+          class="w-full border border-green-500 mx-auto grid lg:grid-cols-4 gap-6"
         ></div>
       </section>
+
+      <!-- Sort column Section -->
+      <section>
+        <div
+          class="w-11/12 mx-auto flex justify-between mt-5 mb-5 items-center"
+        >
+          <div class="">
+            <h3 class="font-bold">Best Deal For you</h3>
+          </div>
+          <div>
+            <button class="btn bg-emerald-900 text-white">Sort Price</button>
+          </div>
+        </div>
+      </section>
+
       <!-- All Pet Section -->
-      <section id="a">
-        <div id="ll-pet-container"></div>
+      <section id="" class="w-11/12 mt-3 flex mx-auto">
+        <div
+          id="all-pet-container"
+          class="w-4/5 grid grid-cols-1 lg:grid-cols-3 gap-3 object-fill"
+        ></div>
+        <div
+          id="pet-img-container"
+          class="w-1/5 grid grid-cols-2 gap-3 h-full"
+        ></div>
+      </section>
+      <!-- PetCategory -->
+      <section id="" class="w-11/12 mt-3 flex mx-auto">
+        <div
+          id="pet-category-container"
+          class="w-4/5 grid grid-cols-1 lg:grid-cols-3 gap-3 object-fill"
+        ></div>
+        <div
+          id="pet-img-container"
+          class="w-1/5 grid grid-cols-2 gap-3 h-full"
+        ></div>
       </section>
     </main>
     <footer></footer>
